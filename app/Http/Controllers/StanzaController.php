@@ -9,10 +9,14 @@ use Illuminate\Http\Request;
 
 class StanzaController extends Controller
 {
+  public function home() {
+
+    return view('home');
+  }
   public function index() {
   $stanze = Stanza::all();
 
-  return view('stanze', compact('stanze'));
+  return view('stanza.stanze', compact('stanze'));
 }
 
 public function show($id) {
@@ -30,6 +34,6 @@ public function store(Request $request) {
 
  $data = $request -> all();
  $stanze = Stanza::create($data);
- return redirect() -> route('index');
+ return redirect() -> route('stanze-list');
 }
 }

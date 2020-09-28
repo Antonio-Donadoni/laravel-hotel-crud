@@ -15,6 +15,8 @@
 
   <a href="{{ route('stanza-create')}}">AGGIUNGI STANZA</a>
 
+
 </main>
+
 
 @endsection

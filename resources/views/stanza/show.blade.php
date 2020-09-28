@@ -10,7 +10,7 @@
 
     </div>
 
-    <a href="{{route('index')}}">TORNA ALLA LISTA</a>
+    <a href="{{route('stanze-list')}}">TORNA ALLA LISTA</a>
 
 
 </main>

@@ -1,2 +1,4 @@
-<h1>HEADER</h1>
-{{-- <a href=" {{route ('index')}}">HOME</a> --}}
+<header>
+  <h1>HOMEPAGE HOTEL</h1>
+  <a href="{{ route('home')}}">HOME</a>
+</header>
